@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>数据可视化项目</title>
+    <link rel="stylesheet" href="fonts/icomoon.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/echarts.min.js"></script>
+    <script src="js/flexible.js"></script>
+    <script src="js/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <!-- 父容器大盒子 -->
+    <div class="viewport">
+
+      <div class="column">
+
+        <div class="point panel">
+          <div class="inner">
+            <h3>2023年全国谷物播种面积、总产量及单位面积产量情况（来源：国家统计局）</h3>
+            <div class="chart">
+              <div class="czm3"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2022年黑龙江省土地利用现状 -->
+        <div class="point panel">
+          <div class="inner">
+            <h3>2022年黑龙江省土地利用现状饼图（来源：观剡记）</h3>
+            <div class="chart">
+              <div class="pie"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="column">
+          <div class="point1 panel">
+              <div class="inner">
+                  <h3>一粥一饭，当思来之不易！（动画）</h3>
+                  <div class="czm5"></div>
+                  <div class="chart">
+
+                  </div>
+              </div>
+          </div>
+
+
+        <!-- 地图模块 -->
+        <div class="map">
+<!--          <h3>-->
+<!--            <span class="icon-cube"></span>-->
+<!--            粮食数据统计-->
+<!--          </h3>-->
+          <div class="chart">
+            <div class="geo"></div>
+          </div>
+        </div>
+
+        <!-- 全国各大高校节约粮食行动 -->
+        <div class="users panel">
+          <div class="inner">
+            <h3>全国各大高校节约粮食行动（来源：光盘打卡 2024/02/26）</h3>
+            <div class="chart">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<!--      各省粮食总产量趋势（万吨）-->
+      <div class="column">
+        <div class="point panel">
+          <div class="inner">
+            <h3>各省粮食总产量趋势（来源：前瞻数据库）</h3>
+            <div class="chart">
+              <div class="czm1"></div>
+            </div>
+          </div>
+        </div>
+
+<!--        食物浪费的原因-->
+          <div class="point panel">
+              <div class="inner">
+                  <h3>食物浪费的原因（来源：小朱追热搜）</h3>
+                  <div class="chart">
+                      <div class="czm"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+        </div>
+
+    <script src="js/index.js"></script>
+    <!-- 想使用中国地图必须先引用这个china.js文件 -->
+    <script src="js/china.js"></script>
+    <!-- 引入我们自己的地图js文件 -->
+    <script src="js/myMap.js"></script>
+  </body>
+</html>
